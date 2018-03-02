@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
   },
   headerLogo: {
     width: 200,
-    resizeMode: 'contain'
+    resizeMode: "contain"
   },
   headerTitle: {
     fontSize: 14,
