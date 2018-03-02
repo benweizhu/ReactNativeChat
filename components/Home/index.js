@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   startChatButton: {
-    width: "auto",
+    width: 93,
     backgroundColor: "#F11A1A",
     paddingTop: 10,
     paddingBottom: 10,
