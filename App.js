@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import { StyleSheet, View } from "react-native";
 
-import Chat from "./components/Chat";
+import Home from "./components/Home";
 
 export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Chat />
+        <Home />
       </View>
     );
   }
