@@ -11,7 +11,7 @@ export default class Home extends Component {
         </View>
         <View style={styles.body} />
         <View style={styles.footer}>
-          <TouchableOpacity>
+          <TouchableOpacity onPress={() => this.props.navigation.navigate('Chat')}>
             <View style={styles.startChatButton}>
               <Text style={styles.startChatButtonText}>Let's chat</Text>
             </View>
@@ -25,7 +25,7 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    width: "100%",
+    alignSelf: 'stretch',
     backgroundColor: "#FFFFFF"
   },
   header: {
@@ -49,11 +49,9 @@ const styles = StyleSheet.create({
   },
   footer: {
     flex: 1,
-    justifyContent: "space-around",
     alignItems: "center"
   },
   startChatButton: {
-    width: 93,
     backgroundColor: "#F11A1A",
     paddingTop: 10,
     paddingBottom: 10,
